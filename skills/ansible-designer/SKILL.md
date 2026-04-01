@@ -11,33 +11,35 @@ AI-assisted Ansible authoring toolkit. Scaffolds, reviews, and updates Ansible p
 
 ## Available Commands
 
+All commands are top-level regardless of install path.
+
 ### Playbook Commands
 | Command | Description |
 |---------|-------------|
-| `/ansible-designer:new-playbook` | Create a new playbook (site, component, or AWX-ready) |
-| `/ansible-designer:review-playbook` | Review an existing playbook — severity report, no file modification |
-| `/ansible-designer:update-playbook` | Update a playbook — shows diff, requires confirmation |
+| `/new-playbook` | Create a new playbook (site, component, or AWX-ready) |
+| `/review-playbook` | Review an existing playbook — severity report, no file modification |
+| `/update-playbook` | Update a playbook — shows diff, requires confirmation |
 
 ### Role Commands
 | Command | Description |
 |---------|-------------|
-| `/ansible-designer:new-role` | Scaffold a complete role — asks about multi-OS support |
-| `/ansible-designer:review-role` | Review a role — severity report, no file modification |
-| `/ansible-designer:update-role` | Update a role — shows diff, requires confirmation |
+| `/new-role` | Scaffold a complete role — asks about multi-OS support |
+| `/review-role` | Review a role — severity report, no file modification |
+| `/update-role` | Update a role — shows diff, requires confirmation |
 
 ### Collection Commands
 | Command | Description |
 |---------|-------------|
-| `/ansible-designer:new-collection` | Scaffold a new collection with galaxy.yml, plugins, roles structure |
-| `/ansible-designer:review-collection` | Review a collection — severity report, no file modification |
-| `/ansible-designer:update-collection` | Update a collection — shows diff, requires confirmation |
+| `/new-collection` | Scaffold a new collection with galaxy.yml, plugins, roles structure |
+| `/review-collection` | Review a collection — severity report, no file modification |
+| `/update-collection` | Update a collection — shows diff, requires confirmation |
 
 ### ansible.cfg Commands
 | Command | Description |
 |---------|-------------|
-| `/ansible-designer:new-conf` | Generate an annotated ansible.cfg for dev, CI, or AWX |
-| `/ansible-designer:review-conf` | Review an ansible.cfg — severity report, no file modification |
-| `/ansible-designer:update-conf` | Update ansible.cfg — shows diff, requires confirmation |
+| `/new-conf` | Generate an annotated ansible.cfg for dev, CI, or AWX |
+| `/review-conf` | Review an ansible.cfg — severity report, no file modification |
+| `/update-conf` | Update ansible.cfg — shows diff, requires confirmation |
 
 ---
 
